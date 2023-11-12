@@ -1,0 +1,221 @@
+/*Narvar*/
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #ee924b;
+    
+}
+
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #ffffff; 
+}
+
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+    color: #f8f8f8; 
+}
+
+
+/* Estilos para la sección Home */
+.Home {
+    background-color: #f2f2f2;
+    padding: 40px; 
+    text-align: center;
+}
+
+.Home h1 {
+    color: #333; 
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.Home h2 {
+    color: #007BFF; 
+    font-size: 24px;
+}
+
+.Home p {
+    color: #666; 
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Estilos para las imágenes */
+
+.Home img {
+    max-width: 100%;
+    border: 2px solid #007BFF;
+    margin: 10px;
+}
+
+
+/* Estilos para la sección de Quienes somos? */
+
+.hero {
+    background-color: #F5C6A2;
+    text-align: center;
+    padding: 50px 0;
+
+}
+
+.hero h2 {
+    font-size: 24px;
+}
+
+.QuienS {
+    max-width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr) );
+    grid-gap: 2rem;
+    padding: 3rem 0;
+    
+}
+
+.QuienS img {
+    max-width: 200%;
+    height: auto;
+    margin: 10px; 
+}
+.col-1{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 4fr));
+    grid-gap: 2rem;
+}
+.feature{
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 8px 8px 55px 5px rgba(7, 7, 7, 0.06);
+}
+
+.feature img {
+    max-width: 70%;
+}
+.feature h3 {
+    font-size: 18px;
+    color: #007bff;
+}
+
+.feature p {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+/*H1*/
+/* Estilos para la sección Hero1 */
+.Hero1 {
+    background-color: #F5C6A2; 
+    padding: 40px;
+    color: #333; 
+}
+
+.Hero1 .content {
+    padding-right: 20px; 
+}
+
+.Hero1 h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.Hero1 p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Estilos para la imagen */
+.Hero1 img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin-left: 200px;
+}
+
+/*her*/
+/* styles.css */
+#voice-section {
+    background-color: #f4f4f4;
+    padding: 50px;
+}
+
+#voice-section h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+#voice-section p {
+    font-size: 18px;
+    color: #555;
+}
+
+#voice-section img {
+    max-width: 100%;
+}
+
+
+/*Princig*/
+
+.Hero2 {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.pricingTable {
+    background-color:#9A9A99;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+}
+
+.pricing_heading {
+    text-align: center;
+}
+
+.title {
+    font-size: 24px;
+    color: #333;
+}
+
+.value {
+    font-size: 36px;
+    color: #007bff;
+}
+
+.month {
+    font-size: 14px;
+    color: #333;
+}
+
+.content ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.content ul li {
+    margin-bottom: 10px;
+}
+
+.link a {
+    display: block;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link a:hover {
+    background-color: #0056b3;
+}
